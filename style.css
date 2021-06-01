@@ -1,3 +1,8 @@
+#body {
+  padding: 0px;
+  margin: 0px;
+}
+
 .navbar-toggler-icon > .navbar {
   height: 10px;
 }
@@ -5,6 +10,7 @@
 .btn-primary {
   background-color: #d52856;
   border: none;
+  align-content: center;
 }
 
 .btn-primary:hover {
@@ -17,13 +23,8 @@
 }
 
 .parallax_trilha {
-  /* The image used */
   background-image: url("./img/trilha.jpg");
-
-  /* Set a specific height */
   min-height: 200px;
-
-  /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -44,6 +45,21 @@
   background-size: cover;
 }
 
+.parallax_trilha_texto {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 200;
+  padding: 100px;
+}
+
+.row_title {
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+  padding-bottom: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 .carousel-item {
   height: 75vh;
   background-size: cover;
@@ -57,5 +73,17 @@
 }
 
 .row {
-  padding: 80px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+  padding-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  justify-content: space-evenly;
+}
+
+.col-lg {
+  justify-content: center;
+  align-self: auto;
 }
