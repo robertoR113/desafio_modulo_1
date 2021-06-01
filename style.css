@@ -2,6 +2,20 @@
   height: 10px;
 }
 
+.btn-primary {
+  background-color: #d52856;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #b52249;
+  border: none;
+}
+
+.d-block {
+  filter: brightness(50%);
+}
+
 .parallax_trilha {
   /* The image used */
   background-image: url("./img/trilha.jpg");
