@@ -32,13 +32,8 @@
 }
 
 .parallax_treino_praia {
-  /* The image used */
   background-image: url("./img/treino-praia.jpg");
-
-  /* Set a specific height */
   min-height: 200px;
-
-  /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -46,6 +41,13 @@
 }
 
 .parallax_trilha_texto {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 200;
+  padding: 100px;
+}
+
+.parallax_treino_praia_texto {
   color: white;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 200;
@@ -86,4 +88,16 @@
 .col-lg {
   justify-content: center;
   align-self: auto;
+}
+
+.form_contact {
+  padding: 50px;
+}
+
+.form_title {
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+  padding-bottom: 0px;
+  font-family: Arial, Helvetica, sans-serif;
 }
